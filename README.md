@@ -17,17 +17,59 @@ F2=xy’z+x’y’z+w’xy+wx’y+wxy
  
 
 ## Logic Diagram
+
+![ss 51](https://user-images.githubusercontent.com/120081893/235205028-1d437fdf-467a-416f-a148-210fade90210.png)
+
 ## Procedure
 ## Program:
+Program For F1
+
+module combilogic(A,B,C,D,F1);
+input A,B,C,D;
+output F1;
+wire G1,G2,G3,G4,G5;
+assign G1=((~A)&(~B)&(~C)&(~D));
+assign G2=((A)&(~C)&(~D));
+assign G3=((~B)&(C)&(~D));
+assign G4=((~A)&(B)&(C)&(D));
+assign G5=((B)&(~C)&(D));
+assign F1=G1|G2|G3|G4|G5;
+endmodule
+Program For F2
+
+module combilogic(W,X,Y,Z,F);
+input W,X,Y,Z;
+output F;
+wire G6,G7,G8,G9,G10;
+assign G6=((X)&(~Y)&(Z));
+assign G7=((~X)&(~Y)&(Z));
+assign G8=((~W)&(X)&(Y));
+assign G9=((W)&(~X)&(Y)); 
+assign G10=((W)&(X)&(Y));
+assign F=G6|G7|G8|G9|G10;
+endmodule
 /*
+```
 Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: Mourise jane S
+RegisterNumber: 212222230085 
 */
 ## RTL realization
 
 ## Output:
+
+ Output  for F1
 ## RTL
+![Ss 52](https://user-images.githubusercontent.com/120081893/235207932-85d99f34-4092-4a0c-8c34-7a86fcd5167f.png)
+
 ## Timing Diagram
+![Ss 53](https://user-images.githubusercontent.com/120081893/235208330-540b470d-b663-48de-8023-3643b781b21e.png)
+ Output for F2
+ ##RTL
+ ![Ss 54](https://user-images.githubusercontent.com/120081893/235208772-b05d0378-1ead-4038-8258-535778d13b48.png)
+
+Timing Daigram:
+![Ss 55](https://user-images.githubusercontent.com/120081893/235209299-ae2c2a38-0cd1-48fe-b444-2254bddf6b54.png)
+
 ## Result:
 Thus the given logic functions are implemented using  and their operations are verified using Verilog programming.
