@@ -29,7 +29,7 @@ Run the respective programs for the given boolean equations.
 Run the module and get the respective RTL outputs.
 Create university program(VWF) for getting timing diagram.
 Give the respective inputs for timing diagram and obtain the results
-```
+
 ## Program:
 
 Program For F1
