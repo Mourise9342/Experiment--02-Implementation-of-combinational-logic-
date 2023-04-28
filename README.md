@@ -63,22 +63,28 @@ Program to implement the given logic function and to verify its operations in qu
 Developed by: Mourise jane S
 RegisterNumber: 212222230085 
 */
+```
 ## RTL realization
 
 ## Output:
 
  Output  for F1
 ## RTL
-![Ss 52](https://user-images.githubusercontent.com/120081893/235207932-85d99f34-4092-4a0c-8c34-7a86fcd5167f.png)
+![Ss 56](https://user-images.githubusercontent.com/120081893/235211252-72d24b21-adb5-4f2e-87ac-6bcc5dd3183c.png)
+
+
 
 ## Timing Diagram
-![Ss 53](https://user-images.githubusercontent.com/120081893/235208330-540b470d-b663-48de-8023-3643b781b21e.png)
+![Ss 53](https://user-images.githubusercontent.com/120081893/235210769-b8b112dc-6730-44e8-be17-0204285ab1cd.png)
+
  Output for F2
  ##RTL
- ![Ss 54](https://user-images.githubusercontent.com/120081893/235208772-b05d0378-1ead-4038-8258-535778d13b48.png)
+ ![Ss 54](https://user-images.githubusercontent.com/120081893/235210833-211fb5e5-ad35-4a34-b8f0-e866c8352dba.png)
+
 
 Timing Daigram:
-![Ss 55](https://user-images.githubusercontent.com/120081893/235209299-ae2c2a38-0cd1-48fe-b444-2254bddf6b54.png)
+![Ss 55](https://user-images.githubusercontent.com/120081893/235210860-ff2b7991-c47c-4b3f-8167-1e6945b2f4fd.png)
+
 
 ## Result:
 Thus the given logic functions are implemented using  and their operations are verified using Verilog programming.
