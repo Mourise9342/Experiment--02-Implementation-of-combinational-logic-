@@ -29,8 +29,9 @@ Run the respective programs for the given boolean equations.
 Run the module and get the respective RTL outputs.
 Create university program(VWF) for getting timing diagram.
 Give the respective inputs for timing diagram and obtain the results
-
+```
 ## Program:
+
 Program For F1
 
 module combilogic(A,B,C,D,F1);
@@ -44,6 +45,7 @@ assign G4=((~A)&(B)&(C)&(D));
 assign G5=((B)&(~C)&(D));
 assign F1=G1|G2|G3|G4|G5;
 endmodule
+
 Program For F2
 
 module combilogic(W,X,Y,Z,F);
